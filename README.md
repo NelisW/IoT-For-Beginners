@@ -96,6 +96,19 @@ We have two choices of IoT hardware to use for the projects depending on persona
 
 You can run this documentation offline by using [Docsify](https://docsify.js.org/#/). Fork this repo, [install Docsify](https://docsify.js.org/#/quickstart) on your local machine, and then in the root folder of this repo, type `docsify serve`. The website will be served on port 3000 on your localhost: `localhost:3000`.
 
+Install on windows:  
+
+- [Use docsify in Windows](https://www.programmersought.com/article/40626849367/)
+- [node.js](https://nodejs.org/en/). After installation confirm installation by typing `node -v` and `npm -v`.
+- Install docsify with `npm install docsify-cli -g`.
+- Change directory to where the docs are: `cd  IoT-For-Beginners\`
+- `docsify init ./docs` then type `y` to set up the server.
+- `docsify serve ./docs` this will start the server.
+- Open a browser window at `http://localhost:3000`
+
+
+
+
 ### PDF
 
 You can generate a PDF of this content for offline access if needed. To do this, make sure you have [npm installed](https://docs.npmjs.com/downloading-and-installing-node-js-and-npm) and run the following commands in the root folder of this repo:
